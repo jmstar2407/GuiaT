@@ -1,0 +1,1588 @@
+
+body {
+    /*Background: #90add5;*/
+    Background: #a3bee2;
+    margin: 0;
+}
+
+
+.Base1 {
+    position: absolute;
+    height: 100%;
+    min-height: 585px;
+    width: 100%;
+    min-width: 1180px;
+    background: #00000000;
+}
+
+.Estrellas {
+    position: fixed;
+    top: 45px;
+    left: 90px;
+    height: 200px;
+    width: 200px;
+    background-image: url(./img/estrellas1.gif);
+    background-size: 200px;
+}
+
+.Estrellas2 {
+    position: fixed;
+    top: -20px;
+    left: 0px;
+    height: 121px;
+    width: 100%;
+    background-image: url(./img/estrellas2.gif);
+    background-size: 283px;
+    opacity: 0.5;
+}
+
+.cirulo {
+    position: fixed;
+    top: 97px;
+    left: 113px;
+    height: 50px;
+    width: 50px;
+    background: #3e618e47;
+    border-radius: 42px;
+    filter: blur(5px);
+}
+
+#Circulo1 {
+position: fixed;
+top: 340px;
+left: 113px;
+height: 245px;
+width: 248px;
+border-radius: 187px;
+filter: blur(59px);
+background: #e200ff33;
+}
+
+#Circulo2 {
+position: fixed;
+top: 110px;
+left: 411px;
+height: 245px;
+width: 248px;
+border-radius: 187px;
+filter: blur(59px);
+background: #ff700042;
+}
+
+#Circulo3 {
+    position: fixed;
+    top: 84px;
+    left: 797px;
+    height: 195px;
+    width: 174px;
+    border-radius: 187px;filter: blur(59px);
+    background: #e200ff33;
+    }
+
+#Circulo4{
+    position: fixed;
+    top: 342px;left: 879px;
+    height: 277px;width: 250px;
+    border-radius: 187px;
+    filter: blur(59px);background: #f7f4b470;
+}
+
+.darkmode #Circulo1 {
+    background: #e200ff1c;
+}
+
+.darkmode #Circulo2 {
+    background: #6989d840;
+}
+
+.darkmode #Circulo3 {
+    background: #0049ff33;
+}
+
+.darkmode #Circulo4 {
+    background: #f7f4b429;
+}
+
+.Base1Dentro {
+    position: relative;
+    height: 100%;
+    min-height: 560px;
+    width: 75%;
+    min-width: 870px;
+    background: #00000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Base1Dentro50 {
+    position: relative;
+    height: 100%;
+    width: 49%;
+    background: #00000000;
+    display: inline-flex;
+}
+
+
+.Menu1 {
+    position: relative;
+    height: 445px;
+    width: 250px;
+    background: #ebf1f68a;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    top: 55%;
+    transform: translateY(-50%);
+    box-shadow: 19px 25px 16px -15px rgb(0 0 0 / 32%), 5px 5px 5px -2px #e1f2ff inset, -2px -2px 6px -2px #011c2c69 inset;
+}
+
+.Menu1 a {
+    position: absolute;
+    font-size: 35px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 100%;
+    top: 10px;
+    color: #5e728e;
+}
+
+.IMGOfrecimiento1 {
+    position: absolute;
+    height: 215px;
+    width: 317px;
+    left: -29px;
+    top: -50px;
+    background-image: url(./img/OfreciemientoIcon.png);
+    background-size: 317px;
+    pointer-events: none;
+    animation: float 7s ease-in-out infinite;
+}
+
+.darkmode .IMGOfrecimiento1 {
+    background-image: url(./img/OfreciemientoIconDark.png);
+}
+
+.IMGOfrecimiento2 {
+    position: absolute;
+    height: 215px;
+    width: 317px;
+    left: -29px;
+    top: -50px;
+    background-image: url(./img/OfreciemientoIconBlur.png);
+    background-size: 317px;
+    pointer-events: none;
+    animation: float 7s ease-in-out infinite;
+}
+
+
+
+.IMGHerramientas1 {
+    position: absolute;
+    height: 215px;
+    width: 215px;
+    left: -29px;
+    top: -50px;
+    background-image: url(./img/HerramientasIcon.png);
+    background-size: 215px;
+    animation: float 7s ease-in-out infinite;
+}
+
+.darkmode .IMGHerramientas1 {
+    background-image: url(./img/HerramientasIconDark.png);
+}
+
+.darkmode .IMGHerramientas2 {
+    background-image: url(./img/HerramientasIconblurDark.png);
+}
+
+.IMGHerramientas2 {
+    position: absolute;
+    height: 215px;
+    width: 215px;
+    left: -18px;
+    top: -39px;
+    filter: blur(9px);
+    background-image: url(./img/HerramientasIconblur.png);
+    background-size: 215px;
+    animation: float 7s ease-in-out infinite;
+}
+
+.darkmode .IMGOfrecimiento2 {
+    opacity: 0.1;
+}
+
+.darkmode .IMGHerramientas2 {
+    opacity: 0.3;
+    filter: blur(9px);
+}
+
+.CuadroOfreMovil {
+    position: absolute;
+    top: 235px;
+    left: -15px;
+    height: 90px;
+    width: 113px;
+    background: #837ac6;
+    background-image: url(./img/movil2.png);
+    background-size: 160px 90px;
+    background-position: -49px;
+    border-radius: 14px;
+    transition: 0.4s;
+    box-shadow: 24px 17px 20px -9px rgb(0 0 0 / 32%), 0px 0px 5px 1px #00000000 inset, 3px 3px 5px 0px #ffffffab inset, -2px -2px 6px 0px #010016 inset;
+}
+
+.CuadroOfreMovil:hover {
+    transition: 0.4s;
+    width: 160px;
+    left: -61px;
+    background-position: -3px;
+}
+
+.CuadroOfreMovil a {
+    position: absolute;
+    font-size: 17px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 100%;
+    top: -23px;
+    transition: 0.4s;
+    pointer-events: none;
+    text-decoration: none;
+    color: #45566e;
+}
+.darkmode .Menu1 a:hover {
+    color: #413a79;
+}
+
+.CuadroOfreMovil:hover a {
+    font-size: 21px;
+    top: 0px;
+    padding-top: 3px;
+    padding-bottom: 63px;
+    transition: 0.4s;
+    pointer-events: auto;
+    text-decoration: none;
+    background: #f0ffff00;
+    color: white;
+    border-radius: 14px;
+}
+
+.CuadroOfreMovil:active {
+    transition: 0.1s;
+    transform: scale(0.95);
+    box-shadow: 4px 3px 11px 0px rgb(0 0 0 / 66%), 0px 0px 38px 13px #37013a6b inset, 2px 2px 4px 0px #fdcfff inset, -2px -2px 5px -1px #1b002280 inset;
+}
+
+.CuadroOfreFijo {
+    position: absolute;
+    top: 235px;
+    left: 110px;
+    height: 60px;
+    width: 60px;
+    border-radius: 14px;
+    transition: 0.4s;
+    background-image: url(./img/Casa1.png);
+    background-size: 60px 130px;
+    background-position: bottom;
+    box-shadow: 24px 17px 20px -9px rgb(0 0 0 / 32%), 0px 0px 5px 1px #00000000 inset, 2px 2px 2px 0px #ffffffab inset, -1px -1px 5px 0px #16000a inset;
+}
+
+.CuadroOfreFijo:hover {
+    top: 165px;
+    height: 130px;
+}
+
+.CuadroOfreFijo a {
+    position: absolute;
+    font-size: 17px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 100%;
+    top: -23px;
+    transition: 0.4s;
+    pointer-events: none;
+    text-decoration: none;
+    color: #45566e;
+}
+
+
+.CuadroOfreFijo:hover a {
+    font-size: 25px;
+    width: 104%;
+    top: 4px;
+    transition: 0.4s;
+    color: #8e2456;
+    pointer-events: auto;
+    text-decoration: none;
+    padding-bottom: 97px;
+}
+
+.CuadroOfreFijo:active {
+    transition: 0.1s;
+    transform: scale(0.95);
+    box-shadow: 4px 3px 11px 0px rgb(0 0 0 / 66%), 0px 0px 38px 13px #37013a6b inset, 2px 2px 4px 0px #fdcfff inset, -2px -2px 5px -1px #1b002280 inset;
+}
+
+.CuadroOfreClaroH {
+    position: absolute;
+    top: 235px;
+    left: 181px;
+    height: 60px;
+    width: 60px;
+    background: #baaafd;
+    border-radius: 14px;
+    font-size: 17px;
+    transition: 0.4s;
+    background-image: url(./img/ClaroH1.png);
+    background-size: 130px;
+    background-position-x: left;
+    background-position-y: bottom;
+    box-shadow: 24px 17px 20px -9px rgb(0 0 0 / 32%);
+    box-shadow: 24px 17px 20px -9px rgb(0 0 0 / 32%), 0px 0px 5px 1px #00000000 inset, 3px 3px 2px 0px #d1f4fa inset, -2px -2px 5px -1px #04343d inset;
+}
+
+
+.CuadroOfreClaroH:hover {
+    top: 165px;
+    left: 181px;
+    height: 130px;
+    width: 130px;
+}
+
+.CuadroOfreClaroH a {
+    position: absolute;
+    font-size: 17px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 100%;
+    top: -43px;
+    transition: 0.4s;
+    color: #45566e;
+    pointer-events: none;
+    text-decoration: none;
+}
+
+.CuadroOfreClaroH:hover a {
+    font-size: 20px;
+    width: 100%;
+    top: 4px;
+    transition: 0.4s;
+    -webkit-background-clip: text;
+    color: #784af9;
+    text-shadow: rgb(118 5 211 / 30%) 0px 3px 3px;
+    pointer-events: auto;
+    text-decoration: none;
+    padding-bottom: 103px;
+}
+
+.CuadroOfreClaroH:active {
+    transition: 0.1s;
+    transform: scale(0.95);
+    box-shadow: 4px 3px 11px 0px rgb(0 0 0 / 66%), 0px 0px 38px 13px #36798938 inset, 2px 2px 4px 0px #d7fbff inset, -2px -2px 5px -1px #1a4146 inset;
+}
+
+.CuadroOfreClaroTV {
+    position: absolute;
+    top: 305px;
+    left: 110px;
+    height: 60px;
+    width: 131px;
+    background: #750909;
+    background-image: url(./img/clarotvplus3.png);
+    background-size: 130px 130px;
+    border-radius: 14px;
+    font-size: 17px;
+    transition: 0.4s;
+    box-shadow: 24px 17px 20px -9px rgb(0 0 0 / 32%), 0px 0px 5px 1px #00000000 inset, 2px 2px 2px 0px #da4343fa inset, -3px -3px 6px 1px #010016 inset;
+}
+
+.CuadroOfreClaroTV:hover {
+    height: 130px;
+}
+
+.CuadroOfreClaroTV a {
+    position: absolute;
+    font-size: 17px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    top: 62px;
+    transition: 0.4s;
+    pointer-events: none;
+    text-decoration: none;
+}
+
+.CuadroOfreClaroTV:hover a {
+    font-size: 24px;
+    width: 100%;
+    top: 0px;
+    transition: 0.4s;
+    pointer-events: auto;
+    text-decoration: none;
+    padding-top: 98px;
+}
+
+.CuadroOfreClaroTV:active {
+    transition: 0.1s;
+    transform: scale(0.95);
+    box-shadow: 4px 3px 11px 0px rgb(0 0 0 / 66%), 0px 0px 38px 13px #061a0640 inset, 2px 2px 4px 0px #ff9999 inset, -2px -2px 5px -1px #221214 inset;
+}
+
+.CuadroOfreAccesorios {
+    position: absolute;
+    top: 350px;
+    left: -15px;
+    height: 80px;
+    width: 113px;
+    background: #73d376;
+    background-image: url(./img/Accesorios1.png);
+    background-position: -50px 0px;
+    border-radius: 14px;
+    font-size: 17px;
+    transition: 0.4s;
+    box-shadow: 24px 17px 20px -9px rgb(0 0 0 / 32%), 0px 0px 5px 1px #00000000 inset, 3px 3px 5px 0px #d3ffd5 inset, -3px -3px 6px 1px #276329 inset;
+}
+
+.CuadroOfreAccesorios:hover {
+    left: -62px;
+    width: 160px;
+    background-position: -3px 0px;
+}
+
+.CuadroOfreAccesorios a {
+    position: absolute;
+    font-size: 17px;
+    text-align: right;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #45566e;
+    width: 100%;
+    top: -20px;
+    transition: 0.4s;
+    pointer-events: none;
+    text-decoration: none;
+}
+
+.CuadroOfreAccesorios:hover a {
+    font-size: 24px;
+    width: 100%;
+    top: 0px;
+    transition: 0.4s;
+    pointer-events: auto;
+    text-decoration: none;
+    padding-top: 0px;
+    padding-bottom: 52px;
+    text-align: center;
+    background: #ffffff00;
+    border-radius: 14px;
+    color: #035550;
+    text-shadow: 1px 1px 1px #4c9d8673;
+}
+
+.CuadroOfreAccesorios:active {
+    transition: 0.1s;
+    transform: scale(0.95);
+    box-shadow: 4px 3px 11px 0px rgb(0 0 0 / 66%), 0px 0px 38px 13px #061a0640 inset, 2px 2px 4px 0px #d8ffd9 inset, -2px -2px 5px -1px #0e3f10 inset;
+}
+
+.Cuadro1 {
+    position: absolute;
+    top: 235px;
+    left: 10px;
+    height: 60px;
+    width: 130px;
+    border-radius: 14px;
+    transition: 0.4s;
+    background-image: url(./img/cal1.png);
+    box-shadow: 24px 17px 20px -9px rgb(0 0 0 / 32%);
+    background-position: bottom;
+    background-size: 130px;
+    box-shadow: 18px 17px 20px -9px rgb(0 0 0 / 32%), 0px 0px 11px 7px #121b1c00 inset, 1px 1px 3px 1px #768587 inset, -2px -2px 3px 1px #000000 inset;
+}
+
+
+.Cuadro1:hover {
+    transition: 0.4s;
+    top: 185px;
+    height: 110px;
+}
+
+
+.Cuadro1 a {
+    position: absolute;
+    font-size: 17px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 100%;
+    top: -23px;
+    transition: 0.4s;
+    pointer-events: none;
+    text-decoration: none;
+    color: #45566e;
+}
+
+.Cuadro1:hover a {
+    font-size: 19px;
+    top: 1px;
+    padding-bottom: 87px;
+    transition: 0.4s;
+    pointer-events: auto;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.Cuadro1:active {
+    transition: 0.1s;
+    transform: scale(0.95);
+    box-shadow: 4px 3px 11px 0px rgb(0 0 0 / 66%);
+}
+
+
+
+
+
+.Cuadro2 {
+    position: absolute;
+    top: 235px;
+    left: 150px;
+    height: 130px;
+    width: 90px;
+    background: #f7f4b4;
+    border-radius: 14px;
+    transition: 0.4s;
+    background-image: url(./img/notas1.png);
+    box-shadow: 23px 17px 20px -9px rgb(0 0 0 / 32%), 0px 0px 11px 7px #3a16016b inset, 2px 2px 4px 0px #ffe3cf inset, -2px -2px 5px -1px #22130080 inset;
+}
+
+
+
+.Cuadro2:hover {
+    transition: 0.4s;
+    padding-top: 0px;
+    width: 140px;
+}
+
+
+.Cuadro2 a {
+    position: absolute;
+    font-size: 17px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 100%;
+    top: -23px;
+    transition: 0.4s;
+    pointer-events: none;
+    text-decoration: none;
+    color: #45566e;
+}
+
+.Cuadro2:hover a {
+    font-size: 21px;
+    top: 3px;
+    padding-bottom: 102px;
+    transition: 0.4s;
+    pointer-events: auto;
+    text-decoration: none;
+    color: #160900;
+}
+
+.Cuadro2:active {
+    transition: 0.1s;
+    transform: scale(0.95);
+    box-shadow: 4px 3px 11px 0px rgb(0 0 0 / 66%);
+    box-shadow: 4px 3px 11px 0px rgb(0 0 0 / 66%), 0px 0px 38px 13px #3a16016b inset, 2px 2px 4px 0px #ffe3cf inset, -2px -2px 5px -1px #22130080 inset;
+}
+
+
+
+.Cuadro3 {
+    position: absolute;
+    top: 305px;
+    left: 10px;
+    height: 60px;
+    width: 60px;
+    background: #6443b5;
+    border-radius: 14px;
+    transition: 0.4s;
+    box-shadow: 24px 17px 20px -9px rgb(0 0 0 / 32%);
+    box-shadow: 24px 17px 20px -9px rgb(0 0 0 / 32%), 0px 0px 5px 1px #000000 inset, 2px 2px 2px 0px #b6aeffa6 inset, -1px -1px 3px 0px #010016 inset;
+    background-image: url(./img/Cronom1.png);
+    background-size: 60px 130px;
+}
+
+
+
+.Cuadro3:hover {
+    transition: 0.4s;
+    padding-top: 50px;
+}
+
+
+.Cuadro3 a {
+    position: absolute;
+    font-size: 17px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 100%;
+    top: 64px;
+    transition: 0.4s;
+    pointer-events: none;
+    text-decoration: none;
+    color: #45566e;
+}
+
+.Cuadro3:hover a {
+    font-size: 21px;
+    top: -1px;
+    padding-top: 83px;
+    transition: 0.4s;
+    pointer-events: auto;
+    text-decoration: none;
+    color: #90c200;
+    text-shadow: rgb(73 150 29 / 10%) 0px 3px 3px;
+}
+
+.Cuadro3:active {
+    transition: 0.1s;
+    transform: scale(0.95);
+    box-shadow: 4px 3px 11px 0px rgb(0 0 0 / 66%);
+}
+
+
+
+.Cuadro4 {
+    position: absolute;
+    top: 305px;
+    left: 80px;
+    height: 60px;
+    width: 60px;
+    background: #96aec6;
+    border-radius: 14px;
+    transition: 0.4s;
+    box-shadow: 24px 17px 20px -9px rgb(0 0 0 / 32%);
+    box-shadow: 24px 17px 20px -9px rgb(0 0 0 / 32%), 0px 0px 5px 1px #00000000 inset, 2px 2px 2px 0px #ffffffab inset, -1px -1px 5px 0px #010016 inset;
+    background-image: url(./img/map1.png);
+    background-size: 60px 130px;
+}
+
+
+
+.Cuadro4:hover {
+    transition: 0.4s;
+    padding-top: 50px;
+}
+
+
+.Cuadro4 a {
+    position: absolute;
+    font-size: 17px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 100%;
+    top: 64px;
+    transition: 0.4s;
+    pointer-events: none;
+    text-decoration: none;
+    color: #45566e;
+}
+
+.Cuadro4:hover a {
+    font-size: 21px;
+    top: 1px;
+    padding-top: 61px;
+    transition: 0.4s;
+    pointer-events: auto;
+    text-decoration: none;
+    color: #000000;
+    text-shadow: rgb(255 255 255) 1px 2px 1px;
+}
+
+.Cuadro4 a font {
+    color: #00000000;
+}
+
+.Cuadro4:hover a font {
+    color: red;
+}
+
+.Cuadro4:active {
+    transition: 0.1s;
+    transform: scale(0.95);
+    box-shadow: 4px 3px 11px 0px rgb(0 0 0 / 66%);
+}
+
+
+
+.Cuadro5 {
+    position: absolute;
+    top: 391px;
+    left: 150px;
+    height: 43px;
+    width: 89px;
+    background: #96aec6;
+    background-position: bottom;
+    pointer-events: auto;
+    border-radius: 14px;
+    transition: 0.4s;
+    box-shadow: 24px 17px 20px -9px rgb(0 0 0 / 32%);
+    box-shadow: 24px 17px 20px -9px rgb(0 0 0 / 32%), 0px 0px 5px 1px #00000000 inset, 2px 2px 2px 0px #ffffffab inset, -1px -1px 5px 0px #010016 inset;
+    background-image: url(./img/favoritos1.png);
+    background-size: 90px 65px;
+}
+
+#ProxyIMG {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    height: 45px;
+    width: 45px;
+    padding: 0px;
+    filter: drop-shadow(1px 1px 2px #00000045);
+    background-image: url(./img/Proxy1.png);
+    background-size: 45px;
+}
+
+.darkmode #ProxyIMG {
+    background-image: url(./img/Proxy2.png);
+}
+
+.Cuadro5:hover {
+    transition: 0.4s;
+    top: 368px;
+    padding-top: 23px;
+}
+
+
+.Cuadro5 a {
+    position: absolute;
+    font-size: 17px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 100%;
+    top: -20px;
+    transition: 0.4s;
+    pointer-events: none;
+    text-decoration: none;
+    color: #45566e;
+}
+
+.Cuadro5:hover a {
+    transition: 0.4s;
+    top: 3px;
+    color: #ffbb31;
+    padding-bottom: 44px;
+    pointer-events: auto;
+    text-decoration: none;
+}
+
+.Cuadro5:active {
+    transition: 0.1s;
+    transform: scale(0.95);
+    box-shadow: 4px 3px 11px 0px rgb(0 0 0 / 66%), 0px 0px 38px 13px #0000001f inset, 2px 2px 4px 0px #4d769e inset, -2px -2px 5px -1px #00000080 inset;
+}
+
+
+
+.Cuadro6 {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    height: 43px;
+    width: 89px;
+    background: #96aec6;
+    background-position: bottom;
+    pointer-events: auto;
+    border-radius: 14px;
+    transition: 0.4s;
+    box-shadow: 24px 17px 20px -9px rgb(0 0 0 / 32%);
+    box-shadow: 24px 17px 20px -9px rgb(0 0 0 / 32%), 0px 0px 5px 1px #00000000 inset, 2px 2px 2px 0px #ffffffab inset, -1px -1px 5px 0px #010016 inset;
+    background-image: url(./img/favoritos1.png);
+    background-size: 90px 65px;
+}
+
+
+
+.Cuadro6:hover {
+    transition: 0.4s;
+    top: 368px;
+    padding-top: 23px;
+}
+
+
+.Cuadro6 a {
+    position: absolute;
+    font-size: 17px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 100%;
+    top: -20px;
+    transition: 0.4s;
+    pointer-events: none;
+    text-decoration: none;
+    color: #45566e;
+}
+
+.Cuadro6:hover a {
+    transition: 0.4s;
+    top: 3px;
+    color: #ffbb31;
+    padding-bottom: 44px;
+    pointer-events: auto;
+    text-decoration: none;
+}
+
+.Cuadro6:active {
+    transition: 0.1s;
+    transform: scale(0.95);
+    box-shadow: 4px 3px 11px 0px rgb(0 0 0 / 66%), 0px 0px 38px 13px #0000001f inset, 2px 2px 4px 0px #4d769e inset, -2px -2px 5px -1px #00000080 inset;
+}
+
+
+.MenuArriba {
+    position: relative;
+    Background: #00ffff00;
+    width: 100%;
+    top: 0px;
+    height: 50px;
+}
+
+.Logo {
+    position: absolute;
+    background: #00000000;
+    height: 100%;
+    min-height: 550px;
+    width: 100%;
+    min-width: 1045px;
+    animation: float 6s ease-in-out infinite;
+}
+
+.Logo img {
+    position: relative;
+    height: 63px;
+    top: 52%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-50%);
+}
+
+.Logo h3 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    top: 52%;
+    transform: translateY(-50%);
+    color: rgb(81 99 123);
+    text-shadow: 5px 3px 5px #51637c54;
+    font-family: monospace;
+    font-size: 18px;
+    letter-spacing: 10px;
+    margin-block-start: -24px;
+    margin-block-end: 0px;
+}
+
+.MenuArribaDentro {
+    position: relative;
+    Background: #00000000;
+    padding-left: 0px;
+    width: 100%;
+    min-width: 1255px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.MenuArribaDentro h {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    font-size: 30px;
+    font-family: system-ui;
+    font-weight: bold;
+    color: #d8e2f0;
+    text-shadow: 5px 3px 5px #0000006e;
+}
+
+.MenuArribaDentro h2 {
+    position: absolute;
+    top: 26px;
+    left: 21px;
+    color: rgb(81 99 123);
+    font-family: monospace;
+    font-size: 11px;
+    letter-spacing: 13.5px;
+    text-shadow: 5px 3px 5px #00000033;
+}
+.darkmode .MenuArribaDentro h2 {
+    color: rgb(181 198 224);
+}
+
+.MenuArribaDentro a {
+    position: relative;
+    Background: #ffffffa6;
+    top: 12px;
+    left: 287px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #657892;
+    padding-top: 3px;
+    padding-right: 14px;
+    padding-bottom: 3px;
+    padding-left: 14px;
+    border-radius: 5px;
+    transition: 0.4s;
+    display: inline-flex;
+    backdrop-filter: blur(7px);
+    box-shadow: 3px 14px 16px -9px rgb(0 0 0 / 59%), 2px 2px 1px 0px #ffffff6b inset, 0px 0px 2px 1px #0000002e inset;
+}
+
+
+#FriPick1 {
+    color: #888888;
+    font-family: sans-serif;
+    font-size: 19px;
+}
+
+.darkmode #FriPick1 {
+    color: #e2e2e2;
+}
+
+.MenuArribaDentro a:hover {
+    transition: 0.4s;
+    transform: scale(0.95);
+    box-shadow: 2px 3px 8px -2px rgb(0 0 0 / 67%);
+}
+
+.Menulateral1 {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100px;
+    background: #00800000;
+    min-height: 530px;
+    pointer-events: none;
+}
+
+
+.Menulateral1Dentro {
+    position: absolute;
+    height: 350px;
+    width: 100px;
+    background: #00000000;
+    top: 52%;
+    transform: translateY(-50%);
+    pointer-events: auto;
+}
+
+
+
+.Menulateral1Cuadro {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    height: 60PX;
+    width: 60PX;
+    /* background: #90add5; */
+    border-radius: 14px;
+    box-shadow: -3px -2px 9px 0px rgb(197 221 255), 3px 3px 7px 1px rgb(93 119 156);
+    transition: 0.2s;
+}
+
+.Menulateral1Cuadro a{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 14px;
+}
+
+.Menulateral1Cuadro img{
+    border-radius: 14px;
+}
+
+.Menulateral1Cuadro:hover {
+    left: 24px;
+    box-shadow: inset -5px -5px 8px rgb(172 202 244), inset 5px 7px 7px rgb(97 122 157), inset 2px 4px 42px -5px rgb(121 149 188);
+    transition: 0.2s;
+}
+
+.darkmode .Menulateral1Cuadro:hover {
+    box-shadow: inset -5px -5px 8px rgb(35 61 91), inset 5px 7px 7px rgb(9 23 40), inset 2px 4px 42px -5px rgb(22 37 55);
+}
+
+
+.darkmode .Menulateral2Cuadro:hover {
+    box-shadow: inset -5px -5px 8px rgb(35 61 91), inset 5px 7px 7px rgb(9 23 40), inset 2px 4px 42px -5px rgb(22 37 55);
+}
+
+
+.MenuLateral2Atras {
+    position: absolute;
+    background: #ff000000;
+    height: 98%;
+    min-height: 580px;
+    width: 100%;
+    min-width: 1255px;
+}
+
+
+.Menulateral2 {
+    position: absolute;
+    height: 100%;
+    width: 100px;
+    background: #00800000;
+    min-height: 530px;
+    right: 1px;
+}
+
+
+.Menulateral2Dentro {
+    position: absolute;
+    height: 415px;
+    width: 100px;
+    background: #00000000;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Menulateral2Cuadro {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    height: 60PX;
+    width: 60PX;
+    /*background: #90add5;*/
+    border-radius: 14px;
+    box-shadow: -3px -2px 9px 0px rgb(197 221 255), 3px 3px 7px 1px rgb(93 119 156);
+    /*box-shadow: inset -5px -5px 8px rgb(172 202 244), inset 5px 7px 7px rgb(97 122 157), inset 2px 4px 42px -5px rgb(121 149 188);*/
+    transition: 0.2s;
+}
+
+.Menulateral2Cuadro a{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 14px;
+}
+
+.Menulateral2Cuadro img{
+    border-radius: 14px;
+}
+
+.Menulateral2Cuadro:hover {
+    left: 13px;
+    /*box-shadow: -3px -2px 9px 0px rgb(197 221 255), 3px 3px 7px 1px rgb(93 119 156);*/
+    box-shadow: inset -5px -5px 8px rgb(172 202 244), inset 5px 7px 7px rgb(97 122 157), inset 2px 4px 42px -5px rgb(121 149 188);
+    transition: 0.2s;
+}
+
+.Menulateral2Cuadro h {
+    position: absolute;
+    top: -34px;
+    left: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: system-ui;
+    color: #5e728e;
+    /* color: black; */
+    /* color: #2d3b4e; */
+    text-shadow: 1px 1px 1px rgb(198 234 255 / 89%);
+}
+
+.Menulateral2Cuadro h2 {
+    position: absolute;
+    top: -52px;
+    left: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: system-ui;
+    color: #5e728e;
+    text-shadow: 1px 1px 1px rgb(198 234 255 / 89%);
+}
+
+.darkmode .Menulateral2Cuadro h2 {
+    color: #b8cae3;
+    text-shadow: 1px 1px 1px rgb(10 55 80 / 93%);
+}
+
+.Cuadro2Texto {
+    position: absolute;
+    top: 13px;
+    right: 78px;
+    height: 35PX;
+    width: 85PX;
+    border-radius: 7px;
+    box-shadow: inset -5px -5px 8px rgb(172 202 244), inset 5px 7px 7px rgb(97 122 157), inset 2px 4px 42px -5px rgb(121 149 188);
+    transition: 0.2s;
+    pointer-events: none;
+    opacity: 0;
+}
+
+
+.Menulateral2Cuadro:hover .Cuadro2Texto {
+    transition: 0.2s;
+    opacity: 1;
+}
+
+.Cuadro2Texto h1 {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #4a5c74;
+    text-align: center;
+    margin-top: 9px;
+    width: 100%;
+    /*text-shadow: 1px 1px 1px #00000066;*/
+    transition: 0.2s;
+}
+
+.Cuadro1Texto h1 {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #4a5c74;
+    text-align: center;
+    margin-top: 9px;
+    width: 100%;
+    /*text-shadow: 1px 1px 1px #00000066;*/
+    transition: 0.2s;
+}
+
+.Cuadro1Texto {
+    position: absolute;
+    top: 13px;
+    left: 72px;
+    height: 35PX;
+    width: 85PX;
+    border-radius: 7px;
+    /*background: #89a6cd;*/
+    box-shadow: inset -5px -5px 8px rgb(172 202 244), inset 5px 7px 7px rgb(97 122 157), inset 2px 4px 42px -5px rgb(121 149 188);
+    transition: 0.2s;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.Menulateral1Cuadro:hover .Cuadro1Texto {
+    transition: 0.2s;
+    opacity: 1;
+}
+
+.BarraAbajo {
+    position: absolute;
+    background: #42495200;
+    padding-left: 0px;
+    height: 32px;
+    width: 100%;
+    min-width: 1080px;
+    bottom: 0px;
+    z-index: 10;
+}
+
+.BarraAbajoDentro {
+    position: relative;
+    top: 0px;
+    width: 580px;
+    height: 32px;
+    background: #42495294;
+    border-radius: 20px 20px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.BarraAbajo h1 {
+    position: relative;
+    top: 11px;
+    height: 19px;
+    width: 100%;
+    font-size: 13px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #d6dce4;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.SombraLapiz {
+    position: relative;
+    top: 325px;
+    left: 208px;
+    height: 10px;
+    width: 39px;
+    background: #00000099;
+    filter: blur(7px);
+    animation: float 7s ease-in-out infinite;
+   pointer-events: none;
+}
+
+
+.lg1 {
+	position: relative;
+}
+  
+.lg1 .lg2 {
+	position: absolute;  
+	top: 0;  
+	left: 0;
+	opacity: 0;
+	transition: .5s;
+}
+  
+.lg1:hover .lg2 {
+	opacity: 1;
+}
+
+.icon1 {
+	position: relative;
+}
+  
+.icon1 .icon2 {
+	position: absolute;  
+	top: 0;  
+	left: 0;
+	opacity: 0;
+	transition: .5s;
+}
+  
+.icon1:hover .icon2 {
+	opacity: 1;
+}
+
+.BotonSegmentos1 {
+    position: absolute;
+    top: 14px;
+    height: 30px;
+    width: 27px;
+    border-radius: 4px;
+    left: 254px;
+    transition: 0.2s;
+    z-index: 10;
+}
+
+.BotonSegmentos1:hover,
+.BotonSegmentos2:hover {
+    background: #00000054;
+    transition: 0.2s;
+}
+
+.BotonSegmentos2 {
+    position: absolute;
+    top: 14px;
+    height: 30px;
+    width: 27px;
+    border-radius: 4px;
+    left: 254px;
+    transition: 0.2s;
+    display: none;
+    z-index: 10;
+}
+
+.CuadroSegmentos {
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    height: 87px;
+    width: 175px;
+    border-radius: 8px;
+    padding: 7px 0px 7px 0px;
+    background: #00000075;
+    backdrop-filter: blur(14px);
+    display: none;
+    background: #dfe8f3;
+    box-shadow: 19px 25px 16px -15px rgb(0 0 0 / 48%), 3px 3px 3px 0px #ffffff inset, -3px -3px 5px 0px #a5afba inset;
+}
+
+.darkmode .CuadroSegmentos {
+    background: #1a2630;
+    box-shadow: 19px 25px 16px -15px rgb(0 0 0 / 54%), 3px 3px 5px 0px #537189 inset, -3px -3px 4px 0px #0f171e inset;
+}
+
+.CuadroSegmentos a {
+    position: relative;
+    height: 27px;
+    margin-bottom: 3px;
+    padding-left: 5%;
+    width: 95%;
+    background: #00ffff00;
+    display: inline-flex;
+    color: #5f748f;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: system-ui;
+    transition: 0.2s;
+    font-weight: bold;
+}
+.darkmode .CuadroSegmentos a {
+color: #b8cae3;
+}
+
+.CuadroSegmentos a:hover {
+    background: #30d6d575;
+    transition: 0.2s;
+}
+
+.BotonSegmentos1 a {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    background: #00000000;
+    background-image: url(./img/caret-abajo.png);
+    background-size: 26px;
+    background-repeat: no-repeat;
+    filter: drop-shadow(3px 4px 3px #00000050);
+    background-position: 0px 2px;
+}
+
+
+.BotonSegmentos2 a {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    background: #00000000;
+    background-image: url(./img/caret-cerrar.png);
+    background-size: 26px;
+    background-repeat: no-repeat;
+    filter: drop-shadow(3px 4px 3px #00000050);
+    background-position: 0px 2px;
+    display: none;
+}
+
+
+/*aqui*/
+
+
+
+button {
+    position: relative;
+    top: 3px;
+    left: 16px;
+    height: 43px;
+    width: 50px;
+    font-size: 15px;
+    background: #e8609c00;
+    background-image: url(./imagenes/guardar1.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    color: #f5f5f5;
+    font-weight: bold;
+    border-style: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+
+button:hover {
+    transform: scale(0.95);
+    transition: 0.2s;
+}
+
+#BotonDark {
+    position: relative;
+    top: 2px;
+    left: 4px;
+    height: 27px;
+    width: 27px;
+    font-size: 15px;
+    background: #09255b;
+    background-image: url(./img/luna1.png);
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: 2px 3px;
+    border-radius: 20px;
+    color: #f5f5f5;
+    font-weight: bold;
+    border-style: none;
+    transition: 0.2s;
+    box-shadow: 13px 18px 16px -15px rgb(0 0 0 / 32%), 3px 3px 4px -2px #6369c4 inset, -3px -3px 6px -2px #11054a inset;
+}
+
+.darkmode #BotonDark {
+    position: relative;
+    top: 2px;
+    left: 30px;
+    height: 27px;
+    height: 27px;
+    width: 27px;
+    font-size: 15px;
+    background: #000000;
+    background-image: url(./img/sol1.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: 1.5px 1.4px;
+    border-radius: 20px;
+    color: #f5f5f5;
+    font-weight: bold;
+    border-style: none;
+    transition: 0.2s;
+    box-shadow: 13px 18px 16px -15px rgb(0 0 0 / 32%), 3px 3px 4px -2px #6369c4 inset, -3px -3px 6px -2px #11054a inset;
+}
+
+
+.darkmode .BotonGuia a {
+    position: absolute;
+    top: 0px;
+    left: 2px;
+    width: 80px;
+    color: white;
+    font-family: system-ui;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.darkmode .FondoBoton {
+    background: #ffffff54;
+}
+
+.FondoBoton {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 31px;
+    width: 59px;
+    border-radius: 21px;
+    background: white;
+    box-shadow: 3px 3px 6px 0px #00000061 inset;
+}
+
+.FondoBoton a {
+    position: relative;
+    top: 3px;
+    left: 7px;
+    font-family: system-ui;
+    font-weight: bold;
+    color: antiquewhite;
+    color: #5e728e;
+    text-shadow: 1px 1px 1px rgb(198 234 255 / 89%);
+}
+.darkmode .FondoBoton a {
+    color: #b8cae3;
+    text-shadow: 1px 1px 1px rgb(10 55 80 / 93%);
+}
+
+/*Darktheme*/
+
+.darkmode {
+    Background: #162537;
+}
+
+.darkmode .Menulateral1Cuadro,
+.darkmode .Menulateral2Cuadro {
+    box-shadow: -3px -2px 9px 0px rgb(32 62 98), 3px 3px 7px 1px rgb(4 11 20);
+}
+
+.darkmode .Menu1 {
+    background: #9dbad254;
+    box-shadow: 19px 25px 16px -15px rgb(0 0 0 / 54%), 5px 5px 7px -2px #94c9f3b3 inset, -4px -4px 9px -2px #01141ff0 inset;
+}
+
+.darkmode .Menu1 a {
+    color: #b8cae3;
+}
+
+.darkmode .Cuadro1Texto,
+.darkmode .Cuadro2Texto {
+    box-shadow: inset -5px -5px 8px rgb(40 68 103 / 76%), inset 5px 7px 7px rgb(7 18 31), inset 2px 4px 42px -5px rgb(22 37 55);
+}
+
+.darkmode .CuadroOfreClaroH a,
+.darkmode .Cuadro1 a,
+.darkmode .Cuadro2 a,
+.darkmode .Cuadro3 a,
+.darkmode .Cuadro4 a,
+.darkmode .Cuadro5 a  {
+    color: #b8cae3;
+}
+
+.darkmode .MenuArribaDentro a {
+    background: #9dbad254;
+    color: #ced1d5;
+    color: #ffffff;
+}
+
+.darkmode .Logo img {
+    filter: brightness(1.4);
+}
+
+.darkmode .Logo h3 {
+    color: rgb(113 139 174);
+    text-shadow: 5px 3px 5px #00000033;
+}
+
+.darkmode .Cuadro2:hover a {
+    color: #160900;
+}
+
+.darkmode .CuadroOfreClaroH:hover a {
+    color: #784af9;
+    text-shadow: rgb(118 5 211 / 30%) 0px 3px 3px;
+}
+
+.darkmode .Cuadro4:hover a {
+    color: #000000;
+    text-shadow: rgb(255 255 255) 1px 2px 1px;
+}
+
+.darkmode .Cuadro5:hover a {
+    color: #ffbb31;
+}
+
+.darkmode .Cuadro3:hover a {
+    color: #90c200;
+    text-shadow: rgb(73 150 29 / 10%) 0px 3px 3px;
+}
+
+
+@media (max-height: 570px) {
+    .BarraAbajo {
+        bottom: -50px;
+    }
+}
+
+
+@keyframes float {
+    0% {
+        transform: translatey(0px)
+    }
+    50% {
+        transform: translatey(-10px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+
+
+::-webkit-scrollbar {
+    background: #90add5;
+    width: 10px;
+    height: 10px;
+}
+  
+::-webkit-scrollbar-thumb {
+    width: 7px;
+    background: #394f6e;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    width: 7px;
+    background: #304563;
+    border-radius: 3px;
+  }
